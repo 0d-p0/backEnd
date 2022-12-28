@@ -53,6 +53,9 @@ app.use('/',(req,res)=>{
   res.send("error")
 })
 
+app.get('/',(req,res)=>{
+  res.send("hello navendu")
+})
 
 
 module.exports = app;
